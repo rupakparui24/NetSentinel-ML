@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+.conda/
+
+# Data and artifacts
+data/raw/
+data/processed/
+data/captures/
+data/sample/*.csv
+models/registry/*.joblib
+models/registry/registry.json
+mlruns/
+*.parquet
+*.pcap
+*.pcapng
+logs/
+reports/
+prometheus_data/
+
+# Keep empty project directories visible
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sample/.gitkeep
+!models/.gitkeep
+!models/registry/.gitkeep
+
+# Editors
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
