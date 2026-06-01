@@ -318,16 +318,4 @@ Through this project, I practiced:
 - Add Grafana dashboards
 - Add SIEM-style export/integration
 
-## Recruiter Demo Path
 
-1. Start the API and dashboard.
-2. Show manual prediction for a suspicious SSH-like flow.
-3. Upload a CSV and run batch scoring.
-4. Use the Capture tab to capture live traffic and analyze it.
-5. Run a drift check and explain the changed features.
-6. Show the model registry and retraining endpoint.
-7. Open the API docs at `/docs`.
-
-## Status
-
-This is a recruiter-facing MVP that demonstrates end-to-end ML engineering for cybersecurity. It is designed to be understandable, runnable on a laptop, and extendable toward a more production-grade MLOps architecture.
